@@ -8,7 +8,7 @@ function MemberListing(props) {
                     <h3>Members</h3>
                     <ul>
                         {memberList.map((member) => {
-                            return <li>
+                            return <li key={member.id}>
                                 <a href={`mailto:${member.email}`}>{member.username}</a>, ({member.role})
                             </li>
                         })}

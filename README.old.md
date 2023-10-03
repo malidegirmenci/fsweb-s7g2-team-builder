@@ -20,21 +20,21 @@ Bu projede, takım üyelerini takip eden bir uygulama ayağa kaldıracaksın ve 
 
 ### Görev 2: MVP (MUÜ)
 
-- [ ] Takım üyelerini içeren listeyi bir stateten render edin.
-- [ ] Üye listesine yeni bir üye eklemek için bir form oluşturun.
+- [X] Takım üyelerini içeren listeyi bir stateten render edin.
+- [X] Üye listesine yeni bir üye eklemek için bir form oluşturun.
 
 #### State'inizin kurulumu
 
-- [ ] `useState` hookunu import edin ve takım listesini tutacağınız bir state oluşturun.
-- [ ] State değişkeninize kendi belirleyeceğiniz bir default değer atayın. Ekip üyelerinin listesini takip etmeniz gerekecek ve her ekip üyesinin kendileriyle ilişkilendirilmiş birkaç anahtar/değer(key/value) çifti olacaktır.
-- [ ] Ekip üyeleri listenizi oluşturun.
+- [X] `useState` hookunu import edin ve takım listesini tutacağınız bir state oluşturun.
+- [X] State değişkeninize kendi belirleyeceğiniz bir default değer atayın. Ekip üyelerinin listesini takip etmeniz gerekecek ve her ekip üyesinin kendileriyle ilişkilendirilmiş birkaç anahtar/değer(key/value) çifti olacaktır.
+- [X] Ekip üyeleri listenizi oluşturun.
 
 #### Formunuzu Oluşturun
 
-- [ ] Bir "Form.js" dosyası oluşturun ve form işaretçinizi oluşturun.
-- [ ] `isim`, `email` ve `rol` gibi inputlar oluşturun (backend engineer, frontend engineer, tasarımcı, vb. Hayalgücünüzü kullanın).
-- [ ] Formun _state_ ini düzenlemekten hangi bileşenin sorumlu olduğuna karar vermeniz gerekir. (`Form` un kendisi, ya da parentı `App`). Her yaklaşımın avantajları ve dezavantajları vardır.
-- [ ] `App` içinde `Form` bileşeninizi render edin. `App` bileşeni, `Form` un işini yapması için gereken tüm callbackleri proplar aracılığıyla iletmelidir. (submit(gönder) e basıldığında takım üyeleri listesine yeni üyeler eklenecektir).
+- [X] Bir "Form.js" dosyası oluşturun ve form işaretçinizi oluşturun.
+- [X] `isim`, `email` ve `rol` gibi inputlar oluşturun (backend engineer, frontend engineer, tasarımcı, vb. Hayalgücünüzü kullanın).
+- [X] Formun _state_ ini düzenlemekten hangi bileşenin sorumlu olduğuna karar vermeniz gerekir. (`Form` un kendisi, ya da parentı `App`). Her yaklaşımın avantajları ve dezavantajları vardır.
+- [X] `App` içinde `Form` bileşeninizi render edin. `App` bileşeni, `Form` un işini yapması için gereken tüm callbackleri proplar aracılığıyla iletmelidir. (submit(gönder) e basıldığında takım üyeleri listesine yeni üyeler eklenecektir).
 
 Şimdi MVP'yi tamamladığınız! Aşağıdaki esnek görevlere devam edin. Öncelikle üyeleri düzenleme özelliği ekleyin. Bu çok karmaşık bir süreç olduğu için, bu konuda size yardımcı olacak adımlar aşağıda belirtilmiştir.
 
