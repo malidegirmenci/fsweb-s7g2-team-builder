@@ -11,12 +11,12 @@ Bu projede, takım üyelerini takip eden bir uygulama ayağa kaldıracaksın ve 
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Projeyi forklayarak bir kopyasını oluşturun.
-- [ ] Forku klonlayın
-- [ ] `npx create-react-app .` komutuyla projeyi oluşturun (SONDAKİ NOKTAYA DİKKAT EDİN!) .
-- [ ] `npm start` komutuyla projeyi başlatın
-- [ ] Projeyi oluşturduğunuz reponun `main` branchi üzerinde commitleyin.
-- [ ] Commitlerinizi pushlayın: git push origin `main`.
+- [X] Projeyi forklayarak bir kopyasını oluşturun.
+- [X] Forku klonlayın
+- [X] `npx create-react-app .` komutuyla projeyi oluşturun (SONDAKİ NOKTAYA DİKKAT EDİN!) .
+- [X] `npm start` komutuyla projeyi başlatın
+- [X] Projeyi oluşturduğunuz reponun `main` branchi üzerinde commitleyin.
+- [X] Commitlerinizi pushlayın: git push origin `main`.
 
 ### Görev 2: MVP (MUÜ)
 
